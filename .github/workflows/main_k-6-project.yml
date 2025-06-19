@@ -19,7 +19,7 @@ jobs:
       - name: Set up .NET Core SDK
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.0.16' # Use latest stable version
+          dotnet-version: '8.0.x' # Use latest stable version
 
       - name: Restore dependencies
         run: dotnet restore
